@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/restaurant_css.css">
+
+    <link rel="stylesheet" href="css/utility_class.css">
+
+    <link rel="stylesheet" href="css/extra_media_query.css">
+
+    <link rel="stylesheet" media="screen and (max-width: 1030px) and (min-width:800px)" href="css/tablet.css">
+
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="css/mobile.css">
+
+    <link rel="stylesheet" media="screen and (max-width: 1029px)" href="css/toogle_navbar.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <nav id="navigation">
+        <a href="index.html" class="flex-center"><img src="icon-images/logo.png" alt="">
+            <h1>Restaurant</h1>
+        </a>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="contact">
+        <div class="contact-info" id="location">
+            <img src="contact-icons/location.svg" alt="">
+            <div class="contact-text">
+                <h3>Location:</h3>
+                <p>A108 Adam Street, New York, NY 535022</p>
+            </div>
+        </div>
+
+        <div class="contact-info" id="open-hours">
+            <img src="contact-icons/clock.svg" alt="">
+            <div class="contact-text">
+                <h3>Open Hours:</h3>
+                <p>Sun-Thurs: 11:15am - 10:00pm <br> Fri: 11:15am - 2:30pm <br> Saturday Closed</p>
+            </div>
+        </div>
+
+        <div class="contact-info" id="contact-email">
+            <img src="contact-icons/email.svg" alt="">
+            <div class="contact-text">
+                <h3>Email:</h3>
+                <p>info@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="contact-info" id="call">
+            <img src="contact-icons/phone.svg" alt="">
+            <div class="contact-text">
+                <h3>Call:</h3>
+                <p>1234567890</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact-message">
+        <input type="text" name="myName" id="user-name" placeholder="Your Name">
+        <input type="email" name="myName" id="user-email" placeholder="Your Email">
+        <input type="text" name="myName" id="user-subject" placeholder="Subject">
+        <textarea name="myMessage" id="user-message" cols="30" rows="10" placeholder="Message"></textarea>
+        <div id="message-btn">
+            <button>Send Message</button>
+        </div>
+    </section>
+
+
+
+
+    <!-- footer -->
+    <footer>
+
+        <div class="footer-content" id="timing">
+            <span>Hours:</span>
+            <br> Sun-Thurs: 11:15am - 10:00pm
+            <br> Fri: 11:15am - 2:30pm
+            <br> Saturday Closed
+        </div>
+        <hr>
+        <div class="footer-content" id="address">
+            <span>Address:</span>
+            <br> A108 Adam Street, New York, NY 535022
+            <br>
+            <p>*Delivery area within 3-4 miles, with minimum order of 120 Rs plus 30 Rs charge for all deliveries.</p>
+        </div>
+        <hr>
+        <div class="footer-content" id="testimonials">
+            <p>"The best restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+            <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+        </div>
+
+        <div class="footer-content" id="copyright">
+            © Copyright Restaurant 2021
+        </div>
+
+    </footer>
+
+</body>
+<script src="js/toogle_navbar.js"></script>
+
+</html>
