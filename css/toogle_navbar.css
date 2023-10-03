@@ -1,0 +1,38 @@
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    position: fixed;
+    top: 24px;
+    right: 0px;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    background-color: var(--nav-color);
+    width: 80%;
+    transform: translateX(100%);
+    justify-content: space-around;
+    transition: transform 0.4s ease-in;
+    z-index: 100;
+}
+.burger{
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+.nav-active{
+    transform: translateX(0%);
+}
+.nav-active-blur{
+    transform: translateX(100%);
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}

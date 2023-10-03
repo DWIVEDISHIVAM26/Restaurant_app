@@ -1,0 +1,181 @@
+/* main-content */
+
+#main-content img {
+    width: 553px;
+    height: 434px;
+}
+
+#main-content a {
+    top: 255px;
+}
+
+
+/* home-tiles */
+
+#home-tiles>div {
+    width: 70%;
+    margin-top: 20px;
+}
+
+
+/* book-table */
+
+#book-table {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#message,
+.btn {
+    grid-column: 1/ span 1;
+}
+
+
+/* footer */
+
+footer {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#copyright {
+    grid-column: 1/ span 1;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+footer hr {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+
+/* Menu-categories and special-categories*/
+
+#menu-categories,
+#special-categories {
+    width: 400px;
+    grid-template-columns: 1fr;
+}
+
+.menu-food,
+.special-food {
+    height: 450px;
+}
+
+@media screen and (max-width:800px) and (min-width:610px) {
+    #menu-categories,
+    #special-categories {
+        width: 580px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .menu-food,
+    .special-food {
+        height: 404px;
+    }
+    .menu-food>.food-images>img,
+    .special-food>.food-images>img {
+        height: 147px;
+    }
+    .about-food {
+        padding: 10px 5px 12px 5px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    #menu-categories,
+    #special-categories {
+        width: 310px;
+    }
+    .menu-food,
+    .special-food {
+        height: 486px;
+    }
+}
+
+
+/* Menu-categories */
+
+
+/* About */
+
+#chef-image {
+    width: 500px;
+    justify-content: center;
+}
+
+
+/* contact-page */
+
+@media screen and (max-width: 584px) {
+    a:first-child>h1 {
+        right: 5px;
+        font-size: 26px;
+    }
+    #navigation>.burger {
+        top: 2px;
+        right: 8px;
+    }
+    #navigation>.burger div {
+        width: 23px;
+    }
+    #navigation>.navbar {
+        top: 5px;
+    }
+    #main-content a {
+        top: 176px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+    #home-tiles>div {
+        width: 80%;
+    }
+    /* about-page */
+    #chef-image {
+        width: 300px;
+    }
+    .chef {
+        height: 417px;
+        margin: 29px 0px 0px 0px;
+    }
+    /* contact-page */
+    #contact {
+        grid-template-columns: 1fr;
+        grid-gap: 35px;
+    }
+    #contact-message {
+        grid-template-columns: 1fr;
+    }
+    #user-subject,
+    #user-message,
+    #message-btn {
+        grid-column: 1/span 1;
+    }
+}
+
+@media screen and (max-width: 584px) and (min-width:360px) {
+    #main-content img {
+        width: 360px;
+        height: 316px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    #main-content img {
+        width: 320px;
+        height: 300px;
+    }
+    #main-content a {
+        top: 62px;
+    }
+    #book-table {
+        padding: 31px 22px;
+    }
+    #chef-image {
+        width: 259px;
+    }
+    .chef {
+        height: 354px;
+    }
+}

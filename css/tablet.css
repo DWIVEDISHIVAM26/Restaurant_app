@@ -1,0 +1,76 @@
+/* navigation-bar */
+
+a:first-child>img {
+    display: none;
+}
+
+a:first-child>h1 {
+    right: 91px;
+}
+
+
+/* main-content */
+
+#main-content img {
+    width: 779px;
+    height: 458px;
+}
+
+#main-content button {
+    top: 267px;
+}
+
+#main-content a {
+    top: 259px;
+}
+
+
+/* home-tiles */
+
+#home-tiles>.half-width {
+    width: 42%;
+}
+
+#home-tiles>.full-width {
+    width: 89%;
+    margin-top: 30px;
+}
+
+
+/* Menu-categories */
+
+#menu-categories,
+#special-categories {
+    width: 754px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.menu-food,
+.special-food {
+    height: 423px;
+}
+
+.about-food {
+    padding: 15px 0px 12px 0px;
+}
+
+
+/* Menu-categories */
+
+
+/* About - chef */
+
+#chef-image {
+    width: 701px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:945px) {
+    #book-table {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #message,
+    .btn {
+        grid-column: 1/ span 2;
+    }
+}

@@ -1,0 +1,97 @@
+@media screen and (max-width:1208px) and (min-width:1030px) {
+    /* navigation-bar */
+    a:first-child>img {
+        width: 91px;
+        height: 89px;
+    }
+    /* main-content */
+    #main-content img {
+        width: 994px;
+        height: 534px;
+    }
+    /* home-tiles */
+    #home-tiles>div {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:1145px) and (min-width:1030px) {
+    /* Menu-categories */
+    #menu-categories,
+    #special-categories {
+        width: 1000px;
+    }
+    .menu-food,
+    #special-food {
+        height: 442px;
+    }
+    .menu-food>.food-images>img,
+    .special-food>.food-images>img {
+        width: 100%;
+        height: 170px;
+    }
+}
+
+@media screen and (max-width:1029px) {
+    /* About */
+    #about-restaurant {
+        flex-direction: column;
+        justify-content: none;
+    }
+    #about-restaurant-image img {
+        height: 100%;
+        width: 100%;
+    }
+    #about-restaurant-text {
+        width: 90%;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width:1030px) {
+    /* About-page */
+    .chef:hover>.about-chef {
+        opacity: 1;
+        transform: translateY(-70px);
+    }
+    .chef:hover img {
+        filter: brightness(0.5);
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width:1093px) and (min-width:1030px) {
+    #chef-image {
+        width: 900px;
+        margin: auto;
+    }
+    #chef-image img,
+    .chef {
+        width: 241px;
+        height: 279px;
+    }
+}
+
+@media screen and (max-width:1030px) {
+    .chef {
+        height: 400px;
+        margin-top: 29px;
+    }
+    .about-chef {
+        top: 6px;
+        opacity: 1;
+        color: black;
+    }
+    #chef-image img {
+        width: 100%;
+        height: 81%;
+    }
+}
+
+@media screen and (max-width:1030px) and (min-width:585px) {
+    /* contact-page */
+    #contact {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 35px;
+    }
+}
